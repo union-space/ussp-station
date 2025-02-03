@@ -46,6 +46,7 @@
     - !type:AddComponentSpecial
       components:
       - type: CommandStaff
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: NanoTrasenRepresentativeGear

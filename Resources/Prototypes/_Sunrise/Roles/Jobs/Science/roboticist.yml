@@ -18,6 +18,7 @@
     - Research
     - Maintenance
   #  - Engineering
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: RoboticistGear

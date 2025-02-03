@@ -13,6 +13,7 @@
   access:
   - Medical
   - Maintenance
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: PathologistGear
@@ -20,7 +21,7 @@
     id: PathologistPDA
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
-    
+
 - type: jobIcon
   parent: JobIcon
   id: JobIconPathologist

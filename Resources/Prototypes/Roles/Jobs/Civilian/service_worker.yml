@@ -13,6 +13,7 @@
   - Kitchen
   extendedAccess:
   - Hydroponics
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: ServiceWorkerGear

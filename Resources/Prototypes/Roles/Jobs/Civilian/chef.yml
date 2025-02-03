@@ -17,6 +17,7 @@
   extendedAccess:
   - Hydroponics
   - Bar
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: ChefGear

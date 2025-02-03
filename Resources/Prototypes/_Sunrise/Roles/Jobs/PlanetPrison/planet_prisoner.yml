@@ -18,6 +18,7 @@
     - !type:AddComponentSpecial
       components:
       - type: PlanetPrisoner
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: PrisonerGear

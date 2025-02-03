@@ -23,6 +23,7 @@
   - Engineering
   - External
   - Atmospherics
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: SeniorEngineerGear

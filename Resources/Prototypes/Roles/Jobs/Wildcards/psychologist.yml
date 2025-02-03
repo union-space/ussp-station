@@ -12,6 +12,7 @@
   - Maintenance
   extendedAccess:
   - Chemistry
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: PsychologistGear

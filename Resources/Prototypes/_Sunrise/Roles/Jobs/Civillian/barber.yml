@@ -12,6 +12,7 @@
   - Barber
   - Service
   - Maintenance
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: BarberGear

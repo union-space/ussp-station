@@ -17,6 +17,7 @@
   - External
   extendedAccess:
   - Atmospherics
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: StationEngineerGear

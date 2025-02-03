@@ -38,6 +38,7 @@
       - type: CommandStaff
   speciesBlacklist:
   - Vox # Sunrise-Edit
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: CMOGear

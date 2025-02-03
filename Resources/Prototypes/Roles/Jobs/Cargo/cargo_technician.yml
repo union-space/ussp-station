@@ -12,6 +12,7 @@
   - Maintenance
   extendedAccess:
   - Salvage
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: CargoTechGear

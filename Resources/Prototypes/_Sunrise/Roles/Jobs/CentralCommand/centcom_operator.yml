@@ -6,7 +6,7 @@
   requirements:
   - !type:DiscordRoleRequirement
   weight: 30
-  setPreference: true
+  setPreference: false # USSP EDIT
   startingGear: CentCommOperatorGear
   icon: "JobIconNanotrasen"
   supervisors: job-supervisors-centcom

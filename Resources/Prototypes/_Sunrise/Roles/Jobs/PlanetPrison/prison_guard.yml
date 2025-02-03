@@ -30,6 +30,7 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: PrisonGuardGear

@@ -13,6 +13,7 @@
   extendedAccess:
   - Kitchen
   - Bar
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: BotanistGear

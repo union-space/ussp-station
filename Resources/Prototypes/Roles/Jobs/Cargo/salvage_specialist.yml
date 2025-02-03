@@ -16,6 +16,7 @@
   - Salvage
   - Maintenance
   - External
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: SalvageSpecialistGear

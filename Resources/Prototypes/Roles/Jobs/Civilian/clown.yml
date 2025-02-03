@@ -27,6 +27,7 @@
       interval: 10
   - !type:AddImplantSpecial
     implants: [ SadTromboneImplant ]
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: ClownGear

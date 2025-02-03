@@ -21,6 +21,7 @@
   - Medical
   - Maintenance
   - Chemistry
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: SeniorPhysicianGear

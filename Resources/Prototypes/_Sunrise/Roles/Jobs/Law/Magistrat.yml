@@ -11,7 +11,6 @@
   icon: "JobIconMagistrat"
   supervisors: job-supervisors-centcom
   canBeAntag: false
-  setPreference: true
   radioBold: true
   displayWeight: 75
   access:
@@ -39,6 +38,7 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: MagistratGear

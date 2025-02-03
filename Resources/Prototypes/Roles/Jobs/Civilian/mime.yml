@@ -17,6 +17,7 @@
     components:
     - type: MimePowers
     - type: FrenchAccent
+  setPreference: false # USSP EDIT
 
 - type: startingGear
   id: MimeGear
