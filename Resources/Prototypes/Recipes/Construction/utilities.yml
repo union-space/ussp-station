@@ -86,7 +86,7 @@
   category: construction-category-utilities
   description: "A wallmount substation for compact spaces. Make sure to place cable underneath before building the wall."
   icon:
-    sprite: Structures/Power/substation.rsi
+    sprite: _Ussp/Structures/Power/substation.rsi # USSP EDIT
     state: substation_wall
   objectType: Structure
   placementMode: SnapgridCenter
@@ -373,7 +373,7 @@
   startNode: start
   targetNode: sensor
   category: construction-category-structures
-  description: Reports on the status of the gas within the attached pipe network. 
+  description: Reports on the status of the gas within the attached pipe network.
   icon:
     sprite: Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
     state: icon

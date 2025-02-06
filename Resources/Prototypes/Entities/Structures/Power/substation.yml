@@ -9,7 +9,7 @@
     mode: SnapgridCenter
   components:
   - type: Sprite # TODO: add sprite for maintenance panel open
-    sprite: Structures/Power/substation.rsi
+    sprite: _Ussp/Structures/Power/substation.rsi # USSP EDIT
     snapCardinals: true
     layers:
     - state: substation
@@ -40,7 +40,7 @@
     sourceNode: input
     loadNode: output
     collectionName: substation
-    sprite: Structures/Power/substation.rsi
+    sprite: _Ussp/Structures/Power/substation.rsi # USSP EDIT
     state: substation_static
   - type: BatteryCharger
     voltage: High
@@ -153,7 +153,7 @@
     anchored: true
   - type: Sprite # TODO: add sprite for maintenance panel open
     drawdepth: WallMountedItems
-    sprite: Structures/Power/substation.rsi
+    sprite: _Ussp/Structures/Power/substation.rsi # USSP EDIT
     layers:
     - state: substation_wall
     - state: screen_wall
@@ -175,7 +175,7 @@
     group: Substation
     sourceNode: input
     loadNode: output
-    sprite: Structures/Power/substation.rsi
+    sprite: _Ussp/Structures/Power/substation.rsi # USSP EDIT
     state: substation_wall_static
   - type: BatteryCharger
     voltage: High
@@ -280,7 +280,7 @@
     anchored: true
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Power/substation.rsi
+    sprite: _Ussp/Structures/Power/substation.rsi # USSP EDIT
     layers:
     - state: substation_wall
   - type: Construction
