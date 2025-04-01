@@ -93,6 +93,6 @@
   description: jumpsuit.
   components:
   - type: Sprite
-    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/cookwooman.rsi
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/cookwoman.rsi
   - type: Clothing
     sprite: _Ussp/Clothing/Uniforms/Jumpsuit/cookwoman.rsi
