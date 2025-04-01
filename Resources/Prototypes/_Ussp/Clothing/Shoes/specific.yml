@@ -1,0 +1,92 @@
+- type: entity
+  parent: ClothingShoesClownBase
+  id: ClothingShoesClownSov
+  name: clown shoes
+  description: "The prankster's standard-issue clowning shoes. Damn they're huge!"
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Shoes/Specific/clown.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Shoes/Specific/clown.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepClown
+      params:
+        variation: 0.17
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesMimeSov
+  name: shoes mime
+  description: silence.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Shoes/Specific/mime.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Shoes/Specific/mime.rsi
+    
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesJanitorSov
+  name: janitor shoes
+  description: shots.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Shoes/Specific/janitor.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Shoes/Specific/janitor.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesWaitressSov
+  name: waitress shoes
+  description: waitress.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Shoes/Specific/waitress.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Shoes/Specific/waitress.rsi
+    
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesWaitresSov
+  name: waitres shoes
+  description: waitress.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Shoes/Specific/waitres.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Shoes/Specific/waitres.rsi
+    
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesCorrespondentSov
+  name: correspondent shoes
+  description: shoes.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Shoes/Specific/correspondent.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Shoes/Specific/correspondent.rsi
+    
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesArtistSov
+  name: artist shoes
+  description: shoes.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Shoes/Specific/artist.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Shoes/Specific/artist.rsi
+    
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesCookSov
+  name: cook shoes
+  description: shoes.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Shoes/Specific/cook.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Shoes/Specific/cook.rsi

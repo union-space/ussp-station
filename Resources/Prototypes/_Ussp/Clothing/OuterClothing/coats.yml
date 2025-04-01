@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterCoatCorrespondentSov
+  name: correspondent coat
+  description: Correspondent.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/OuterClothing/Coats/correspondent.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/OuterClothing/Coats/correspondent.rsi
+    
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterCoatArtistSov
+  name: artist coat
+  description: artist.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/OuterClothing/Coats/artist.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/OuterClothing/Coats/artist.rsi

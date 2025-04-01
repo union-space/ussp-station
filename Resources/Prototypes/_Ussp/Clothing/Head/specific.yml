@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadArtistSov
+  name: hair artist
+  description: artist.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Head/Specific/artist.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Head/Specific/artist.rsi

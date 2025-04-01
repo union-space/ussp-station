@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesCorrespondentSov
+  name: correspondent glasses
+  description: yep!
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Eyes/Glasses/correspondent.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Eyes/Glasses/correspondent.rsi

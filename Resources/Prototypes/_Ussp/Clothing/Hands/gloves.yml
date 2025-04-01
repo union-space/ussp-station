@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHandsButcherable
+  id: ClothingHandsGlovesWaitressSov
+  name:  waitress gloves
+  description: waitress!
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Hands/Gloves/waitress.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Hands/Gloves/waitress.rsi
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-black
+  - type: FingerprintMask

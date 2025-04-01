@@ -1,0 +1,43 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCapClownSov
+  name: clown cap
+  description: HONK!
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Head/Hats/clown.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Head/Hats/clown.rsi
+    
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretMimeSov
+  name: mime beret
+  description: vive la Mime.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Head/Hats/mime.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Head/Hats/mime.rsi
+    
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatJanitorSov
+  name: janitor hat
+  description: ...
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Head/Hats/janitor.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Head/Hats/janitor.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCookSov
+  name: cook cap
+  description: cook.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Head/Hats/cook.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Head/Hats/cook.rsi
