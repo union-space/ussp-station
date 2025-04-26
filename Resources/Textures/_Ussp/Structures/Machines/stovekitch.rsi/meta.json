@@ -1,0 +1,33 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "license": "SUNRISE",
+    "copyright": "All rights reserved",
+    "states": [
+        {
+            "name": "stove_icon"
+        },
+        {
+            "name": "stove_unlit"
+        },
+        {
+            "name": "stove_broken"
+        },
+        {
+            "name": "stove_cooking",
+            "delays": [
+                [
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckTieCorrespondentSov
+  name: correspondent tie
+  description: tie.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Neck/Ties/correspondent.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Neck/Ties/correspondent.rsi
+    
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckBowTieArtistSov
+  name: artist bow-tie
+  description: bow-tie.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Neck/Ties/artist.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Neck/Ties/artist.rsi

@@ -1,0 +1,26 @@
+- type: entity
+  parent: ClothingMaskClownBase
+  name: clown wig and mask
+  description: A true prankster's facial attire. A clown is incomplete without his wig and mask.
+  id: ClothingMaskClownSov
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Mask/clown.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Mask/clown.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskMimeSov
+  name: mime mask
+  description: The traditional mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Mask/mime.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Mask/mime.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+  - type: HideLayerClothing
+    slots:
+    - Snout

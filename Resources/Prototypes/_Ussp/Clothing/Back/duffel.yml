@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingDuffelArtistSov
+  name: artist duffel
+  description: Duffel.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Back/Duffels/artist.rsi
+    
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingDuffelCookSov
+  name: cook duffel
+  description: Duffel.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Back/Duffels/cook.rsi

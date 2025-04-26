@@ -15,7 +15,7 @@
         - Folder
         - Write
   - type: Sprite
-    sprite: Structures/Storage/cabinets.rsi
+    sprite: _Ussp/Structures/Storage/cabinets.rsi # USSP EDIT
     noRot: true
   - type: Appearance
   - type: UserInterface

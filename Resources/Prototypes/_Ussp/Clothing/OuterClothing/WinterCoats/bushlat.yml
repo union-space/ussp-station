@@ -1,0 +1,71 @@
+- type: entity
+  id: ClothingOuterCoatBrownSov
+  parent: ClothingOuterBase
+  name: brown winter coat
+  description: A thick brown winter coat designed for cold environments.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/OuterClothing/WinterCoats/bushlat.rsi
+    layers:
+    - state: brown-icon
+  - type: Clothing
+    slots: [ outerClothing ]
+    equippedPrefix: brown
+    sprite: _Ussp/Clothing/OuterClothing/WinterCoats/bushlat.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: brown-equipped-OUTERCLOTHING
+  - type: Item
+    size: Large
+  - type: Insulated
+  - type: TemperatureProtection
+    minTemperature: -50
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.9
+        Piercing: 0.98
+        Heat: 0.9
+  - type: InhandVisuals
+    visualStates:
+      left:
+        state: brown-inhand-left
+      right:
+        state: brown-inhand-right
+
+- type: entity
+  id: ClothingOuterCoatGreySov
+  parent: ClothingOuterBase
+  name: grey winter coat
+  description: A heavy-duty grey winter coat, typically issued for field operations.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/OuterClothing/WinterCoats/bushlat.rsi
+    layers:
+    - state: grey-icon
+  - type: Clothing
+    slots: [ outerClothing ]
+    equippedPrefix: grey
+    sprite: _Ussp/Clothing/OuterClothing/WinterCoats/bushlat.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: grey-equipped-OUTERCLOTHING
+  - type: Item
+    size: Large
+  - type: Insulated
+  - type: TemperatureProtection
+    minTemperature: -50
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.9
+        Piercing: 0.98
+        Heat: 0.9
+  - type: InhandVisuals
+    visualStates:
+      left:
+        state: grey-inhand-left
+      right:
+        state: grey-inhand-right

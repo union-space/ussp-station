@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackMimeSov
+  name: mime backpack
+  description: A silent backpack made for those silent workers. Silence Co.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Back/Backpacks/mime.rsi
+    
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackCorrespondentSov
+  name: correspondent backpack
+  description: backpack.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Back/Backpacks/correspondent.rsi

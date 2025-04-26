@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfClownSov
+  name: clown scarf
+  description: HONK!
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Neck/Scarfs/clown.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Neck/Scarfs/clown.rsi

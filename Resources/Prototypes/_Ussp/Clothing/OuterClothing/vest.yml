@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestWaitressSov
+  name: waitress vest
+  description: A thick vest with a rubbery, water-resistant shell.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/OuterClothing/Vests/waitress.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/OuterClothing/Vests/waitress.rsi

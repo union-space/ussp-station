@@ -1,0 +1,10 @@
+- type: entity
+  parent: [ClothingOuterStorageBase, BaseClothingOuterSounds]
+  id: ClothingOuterApronJanitorSov
+  name: apron janitor
+  description: A fancy apron for a stylish person.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/OuterClothing/Misc/apronjanitor.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/OuterClothing/Misc/apronjanitor.rsi

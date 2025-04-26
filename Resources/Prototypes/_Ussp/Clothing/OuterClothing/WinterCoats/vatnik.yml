@@ -1,0 +1,35 @@
+- type: entity
+  id: ClothingOuterCoatVatnik
+  parent: ClothingOuterBase
+  name: Vatnik
+  description: A thick, quilted jacket, providing warmth and durability. A staple of Soviet outerwear.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/OuterClothing/WinterCoats/vatnik.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    slots: [ outerClothing ]
+    equippedPrefix: vatnik
+    sprite: _Ussp/Clothing/OuterClothing/WinterCoats/vatnik.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped
+  - type: Item
+    size: Large
+  - type: Insulated
+  - type: TemperatureProtection
+    minTemperature: -50
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.9
+        Piercing: 0.98
+        Heat: 0.9
+  - type: InhandVisuals
+    visualStates:
+      left:
+        state: inhand-left
+      right:
+        state: inhand-right

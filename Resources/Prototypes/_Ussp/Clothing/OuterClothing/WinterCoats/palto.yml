@@ -1,0 +1,35 @@
+- type: entity
+  id: ClothingOuterCoatPaltoSov
+  parent: ClothingOuterBase
+  name: Soviet Palto
+  description: A heavy woolen overcoat, favored by officers and high-ranking personnel of the Union. Sturdy, warm, and a symbol of authority.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/OuterClothing/WinterCoats/palto.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    slots: [ outerClothing ]
+    equippedPrefix: palto
+    sprite: _Ussp/Clothing/OuterClothing/WinterCoats/palto.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped
+  - type: Item
+    size: Large
+  - type: Insulated
+  - type: TemperatureProtection
+    minTemperature: -35
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.98
+        Slash: 0.97
+        Piercing: 0.92
+        Heat: 0.85
+  - type: InhandVisuals
+    visualStates:
+      left:
+        state: inhand-left
+      right:
+        state: inhand-right

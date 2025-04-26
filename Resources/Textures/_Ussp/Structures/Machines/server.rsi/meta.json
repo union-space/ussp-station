@@ -1,0 +1,39 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "license": "SUNRISE",
+    "copyright": "All rights reserved",
+    "states": [
+        {
+            "name": "server"
+
+        },
+        {
+            "name": "server-nopower"
+
+        },
+        {
+            "name": "server-off"
+
+        },
+        {
+            "name": "server-on"
+
+        },
+        {
+            "name": "server_o"
+
+        },
+        {
+            "name": "variant-crew"
+
+        },
+        {
+            "name": "variant-research"
+
+        }
+    ]
+}

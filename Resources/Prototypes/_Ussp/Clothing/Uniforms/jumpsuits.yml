@@ -1,0 +1,98 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitClownSov
+  name: clown suit
+  description: HONK!
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/clown.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/clown.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitMimeSov
+  name: mime suit
+  description: ...
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/mime.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/mime.rsi
+    
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitJanitorSov
+  name: janitor jumpsuit
+  description: The jumpsuit for the poor sop with a mop.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/janitor.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/janitor.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCookSov
+  name: cook jumpsuit
+  description: jumpsuit.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/cook.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/cook.rsi
+    
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitWaitressSov
+  name: waitress jumpsuit
+  description: jumpsuit.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/waitress.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/waitress.rsi
+    
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitWaitresSov
+  name: waitres jumpsuit
+  description: jumpsuit.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/waitres.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/waitres.rsi
+    
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCorrespondentSov
+  name: correspondent jumpsuit
+  description: jumpsuit.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/correspondent.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/correspondent.rsi
+    
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitArtistSov
+  name: artist jumpsuit
+  description: jumpsuit.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/artist.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/artist.rsi
+    
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCookWomanSov
+  name: cook jumpsuit
+  description: jumpsuit.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/cookwoman.rsi
+  - type: Clothing
+    sprite: _Ussp/Clothing/Uniforms/Jumpsuit/cookwoman.rsi
