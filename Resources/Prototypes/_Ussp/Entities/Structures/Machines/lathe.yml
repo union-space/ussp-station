@@ -1,0 +1,468 @@
+- type: entity
+  id: ExosuitFabricatorSov
+  parent: BaseLatheLube
+  name: exosuit fabricator
+  description: Creates parts for robotics and other mechanical needs.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Structures/Machines/exosuit_fabricator.rsi
+    layers:
+    - state: fab-idle
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: fab-load
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: fab-o
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: ExosuitFabricatorMachineCircuitboard
+  - type: Lathe
+    idleState: fab-idle
+    runningState: fab-active
+    staticRecipes:
+    - MMI
+    - Boris # Sunrise-Edit
+    - SciFlash
+    - BorgModuleCable
+    - BorgModuleFireExtinguisher
+    - BorgModuleRadiationDetection
+    - BorgModuleTool
+    - CyborgEndoskeleton
+    - LeftArmBorg
+    - RightArmBorg
+    - LeftLegBorg
+    - RightLegBorg
+    - LightHeadBorg
+    - TorsoBorg
+#Sunrise-start
+    - MechAirTank
+    - MechThruster
+#Sunrise-end
+    dynamicRecipes:
+    - ProximitySensor
+    - BorgModuleAdvancedCleaning
+    - BorgModuleAdvancedTool
+    - BorgModuleGPS
+    - BorgModuleArtifact
+    - BorgModuleAnomaly
+    - BorgModuleGardening
+    - BorgModuleHarvesting
+    - BorgModuleDefibrillator
+    - BorgModuleAdvancedTreatment
+    - RipleyHarness
+    - RipleyLArm
+    - RipleyRArm
+    - RipleyLLeg
+    - RipleyRLeg
+    - RipleyMKIIHarness
+    - RipleyUpgradeKit
+    - MechEquipmentGrabber
+    - HonkerHarness
+    - HonkerLArm
+    - HonkerRArm
+    - HonkerLLeg
+    - HonkerRLeg
+    - MechEquipmentHorn
+    - MechEquipmentGrabberSmall
+    - HamtrHarness
+    - HamtrLArm
+    - HamtrRArm
+    - HamtrLLeg
+    - HamtrRLeg
+    - VimHarness
+    - ClarkeHarness
+    - ClarkeHead
+    - ClarkeLArm
+    - ClarkeRArm
+    - ClarkeTreads
+    - DurandHarness
+    - DurandArmor
+    - DurandHead
+    - DurandLArm
+    - DurandLLeg
+    - DurandRArm
+    - DurandRLeg
+    - GygaxHarness
+    - GygaxArmor
+    - GygaxHead
+    - GygaxLArm
+    - GygaxLLeg
+    - GygaxRArm
+    - GygaxRLeg
+    - PhazonHarness
+    - PhazonArmor
+    - PhazonHead
+    - PhazonLArm
+    - PhazonLLeg
+    - PhazonRArm
+    - PhazonRLeg
+    - PowerCageHigh
+    - PowerCageMedium
+    - MechEquipmentDrill
+    - MechEquipmentDrillDiamond
+    - MechEquipmentKineticAccelerator
+    - MechEquipmentHonkerBananaMortar
+    - MechEquipmentHonkerMousetrapMortar
+    - WeaponMechCombatDisabler
+    - WeaponMechCombatFlashbangLauncher
+    - WeaponMechCombatSolarisLaser
+    - WeaponMechCombatFiredartLaser
+    #Sunrise-start
+    - PaintRipleyAluminizer
+    - PaintRipleyFirestarter
+    - PaintRipleyHauler
+    - PaintRipleyZairjah
+    - PaintDurandExecutor
+    - PaintDurandShire
+    - PaintGygaxOld
+    - PaintGygaxWhite
+    - PaintClarkeOrangey
+    #Sunrise-end
+  - type: EmagLatheRecipes
+    emagDynamicRecipes:
+    - WeaponMechCombatImmolationGun
+    - WeaponMechCombatShotgun
+    - WeaponMechCombatUltraRifle
+    - WeaponMechCombatShotgunIncendiary
+    - WeaponMechCombatMissileRack8
+    - PowerCageCombat
+  - type: MaterialStorage
+    whitelist:
+      tags:
+      - Sheet
+      - RawMaterial
+      - Ingot
+  - type: GuideHelp
+    guides:
+    - Robotics
+
+- type: entity
+  id: SecurityTechFabSov
+  parent: BaseLatheLube
+  name: security techfab
+  description: Prints equipment for use by security crew.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Structures/Machines/techfab.rsi
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: sec
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: SecurityTechFabCircuitboard
+  - type: Lathe
+    idleState: icon
+    runningState: icon
+    staticRecipes:
+      - BoxShotgunFlare
+      - BoxLethalshot
+      - BoxShotgunPractice
+      - BoxShotgunSlug
+      - ClothingEyesHudSecurity
+      - CombatKnife
+      - Flash
+      - ForensicPad
+      - Handcuffs
+      - MagazineBoxLightRifle
+      - MagazineBoxLightRiflePractice
+      - MagazineBoxMagnum
+      - MagazineBoxMagnumPractice
+      - MagazineBoxPistol
+      - MagazineBoxPistolPractice
+      - MagazineBoxRifle
+      - MagazineBoxRiflePractice
+      - MagazineLightRifle
+      - MagazineLightRifleEmpty
+      #- MagazinePistol Sunrise-Edit
+      #- MagazinePistolEmpty Sunrise-Edit
+      - MagazinePistolSubMachineGun
+      - MagazinePistolSubMachineGunEmpty
+      - MagazinePistolSubMachineGunTopMounted
+      - MagazinePistolSubMachineGunTopMountedEmpty
+      - MagazineRifle
+      - MagazineRifleEmpty
+      - MagazineShotgun
+      - MagazineShotgunEmpty
+      - MagazineShotgunSlug
+      - RiotShield
+      - SpeedLoaderMagnum
+      - SpeedLoaderMagnumEmpty
+      - Stunbaton
+      - TargetClown
+      - TargetHuman
+      - TargetSyndicate
+      - WeaponDisablerPractice
+      - WeaponFlareGunSecurity
+      - WeaponLaserCarbinePractice
+      - Zipties
+    # Sunrise-start
+      - SpeedLoaderMagnumRubber
+      - MagazineMagnumEmpty
+      - MagazineMagnum
+      - MagazineP90
+      - MagazineBR64
+      - MagazinePistolHighCapacity
+      - MagazinePistolHighCapacityEmpty
+      - MagazineMagnum
+      - ClothingHeadHelmetPubg
+    # Sunrise-end
+    dynamicRecipes:
+      - BoxBeanbag
+      - BoxShotgunIncendiary
+      - BoxShotgunUranium
+      - BoxShellTranquilizer
+      - ClothingBackpackElectropack
+      - ExplosivePayload
+      - FlashPayload
+      - HoloprojectorSecurity
+      - MagazineBoxLightRifleIncendiary
+      - MagazineBoxLightRifleUranium
+      - MagazineBoxMagnumIncendiary
+      - MagazineBoxMagnumUranium
+      - MagazineBoxPistolIncendiary
+      - MagazineBoxPistolUranium
+      - MagazineBoxRifleIncendiary
+      - MagazineBoxRifleUranium
+      - MagazineGrenadeEmpty
+      - MagazineLightRifleIncendiary
+      - MagazineLightRifleUranium
+      - MagazinePistolIncendiary
+      - MagazinePistolUranium
+      - MagazineRifleIncendiary
+      - MagazineRifleUranium
+      - MagazineShotgunBeanbag
+      - MagazineShotgunIncendiary
+      - PortableRecharger
+      - PowerCageHigh
+      - PowerCageMedium
+      - PowerCageSmall
+      - ShuttleGunDusterCircuitboard
+      - ShuttleGunFriendshipCircuitboard
+      - ShuttleGunPerforatorCircuitboard
+      - ShuttleGunSvalinnMachineGunCircuitboard
+      - Signaller
+      - SignalTrigger
+      - SpeedLoaderMagnumIncendiary
+      - SpeedLoaderMagnumUranium
+      - TelescopicShield
+      - TimerTrigger
+      - Truncheon
+      - VoiceTrigger
+      - WeaponGunLaserCarbineSemi
+      - WeaponAdvancedLaser
+      - WeaponDisabler
+      - WeaponDisablerSMG
+      - WeaponLaserCannon
+      - WeaponLaserCarbine
+      - WeaponXrayCannon
+    # Sunrise-Start
+      - PowerCellCombat
+      - PowerCellHyper
+      - MagazinePistolSubMachineGunIncendiary
+      - MagazinePistolSubMachineGunUranium
+      - MagazineMagnumUranium
+      - MagazineShotgunUranium
+      - MagazineLightRifleRubber
+      - MagazineRifleRubber
+      - MagazineMagnumRubber
+      - MagazinePistolSubMachineGunRubber
+      - MagazineBoxPistolRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxRifleRubber
+      - MagazineBoxLightRifleRubber
+      - PowerCageCombat
+      - WeaponMechCombatImmolationGun # Sunrise - Mechs
+      - WeaponMechCombatSolarisLaser # Sunrise - Mechs
+      - WeaponMechCombatFiredartLaser # Sunrise - Mechs
+      - WeaponMechCombatUltraRifle # Sunrise - Mechs
+      - WeaponMechCombatShotgun # Sunrise - Mechs
+      - WeaponMechCombatShotgunIncendiary # Sunrise - Mechs
+      - WeaponMechCombatDisabler # Sunrise - Mechs
+      - WeaponMechCombatFlashbangLauncher # Sunrise - Mechs
+      - WeaponMechCombatMissileRack8 # Sunrise - Mechs
+      - WeaponEnergyGun       # Sunrise - Energy Gun
+      - WeaponEnergyGunMini   # Sunrise - Miniature Energy Gun
+      - WeaponEnergyGunPistol # Sunrise - PDW-9 Energy Pistol
+      - WeaponGunLaserCarbineAutomatic # Sunrise - IK-60 Laser Carbine
+      - ClothingShoesBootsMagCombat # Sunrise - Combat Magboots
+      - BaseMagazinePistolCaselessRifleExtended
+      - MagazinePPSH41Extended
+      - MagazineMP5Extended
+      - MagazineMP7Extended
+      - MagazineP90Extended
+      - MagazineM16A4Extended
+      - MagazineAR18Extended
+      - MagazineM28Extended
+      - MagazineG36Extended
+      - MagazineFamasExtended
+      - MagazineV31Extended
+      - MagazineBauer127Extended
+      - MagazineBR64Extended
+      - MagazineDragunovExtended
+      - ShellBlastArtillery
+      - ShellEMPArtillery
+      - ShellFlashArtillery
+    # Sunrise-End
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+
+- type: entity
+  id: AmmoTechFabSov
+  parent: BaseLatheLube
+  name: ammo techfab
+  description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
+  components:
+    - type: Sprite
+      sprite: _Ussp/Structures/Machines/techfab.rsi
+      layers:
+        - state: icon
+          map: ["enum.LatheVisualLayers.IsRunning"]
+        - state: ammo
+        - state: unlit
+          shader: unshaded
+          map: ["enum.PowerDeviceVisualLayers.Powered"]
+        - state: inserting
+          map: ["enum.MaterialStorageVisualLayers.Inserting"]
+        - state: panel
+          map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - type: Machine
+      board: AmmoTechFabCircuitboard
+    - type: Lathe
+      idleState: icon
+      runningState: icon
+      staticRecipes:
+        - BoxLethalshot
+        - BoxShotgunSlug
+        - BoxShellTranquilizer
+        - MagazineBoxLightRifle
+        - MagazineBoxMagnum
+        - MagazineBoxPistol
+        - MagazineBoxRifle
+        - MagazineLightRifle
+        - MagazineLightRifleEmpty
+        - MagazinePistol
+        - MagazinePistolEmpty
+        - MagazineRifle
+        - MagazineRifleEmpty
+        - MagazineShotgun
+        - MagazineShotgunEmpty
+        - MagazineShotgunSlug
+        - SpeedLoaderMagnum
+        - SpeedLoaderMagnumEmpty
+    - type: MaterialStorage
+      whitelist:
+        tags:
+          - Sheet
+          - RawMaterial
+          - Ingot
+
+- type: entity
+  id: MedicalTechFabSov
+  parent: BaseLatheLube
+  name: medical techfab
+  description: Prints equipment for use by the medbay.
+  components:
+  - type: Sprite
+    sprite: _Ussp/Structures/Machines/techfab.rsi
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: med
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Lathe
+    idleState: icon
+    runningState: icon
+    staticRecipes:
+      - Brutepack
+      - Ointment
+      - Gauze
+      - HandLabeler
+      - Defibrillator
+      - HandheldHealthAnalyzer
+      - HandheldCrewMonitor # Sunrise-Edit
+      - ClothingHandsGlovesLatex
+      - ClothingHandsGlovesNitrile
+#Sunrise-start
+      - ClothingHandsGlovesNitrileBlack
+      - ClothingHandsGlovesNitrileGreen
+      - ClothingHandsGlovesNitrileOrange
+      - ClothingHandsGlovesNitrileRed
+      - ClothingHandsGlovesNitrileBlue
+#Sunrise-end
+      - ClothingMaskSterile
+      - DiseaseSwab
+      - Beaker
+      - LargeBeaker
+      - Dropper
+      - Jug
+      - Syringe
+      - Implanter
+      - PillCanister
+      - BodyBag
+      - ChemistryEmptyBottle01
+      - RollerBedSpawnFolded
+      - CheapRollerBedSpawnFolded
+      - EmergencyRollerBedSpawnFolded
+      - Medkit
+      - MedkitBurn
+      - MedkitToxin
+      - MedkitO2
+      - MedkitBrute
+      - MedkitAdvanced
+      - MedkitRadiation
+      - MedkitCombat
+      - ClothingEyesGlassesChemical
+      - WhiteCane
+    dynamicRecipes:
+      - ChemicalPayload
+      - CryostasisBeaker
+      - BluespaceBeaker
+      - SyringeBluespace
+      - SyringeCryostasis
+      - BoneSetter
+      - BoneSetterAdvanced
+      - BoneGel
+      - Scalpel
+      - ScalpelAdvanced
+      - Retractor
+      - RetractorAdvanced
+      - Cautery
+      - Drill
+      - Saw
+      - SawAdvanced
+      - Hemostat
+      - HemostatAdvanced
+      - LauncherSyringeMed #Sunrise-Edit
+      - LauncherSyringePistol #Sunrise-Edit
+      - LauncherSyringeRapid #Sunrise-Edit
+      - MiniSyringeCryostasis #Sunrise-Edit
+      - MiniSyringeBluespace #Sunrise-Edit
+      - MiniSyringe #Sunrise-Edit
+      - LeftArmCyber
+      - RightArmCyber
+      - LeftHandCyber
+      - RightHandCyber
+      - LeftLegCyber
+      - RightLegCyber
+      - LeftFootCyber
+      - RightFootCyber
+  - type: Machine
+    board: MedicalTechFabCircuitboard
+  - type: StealTarget
+    stealGroup: MedicalTechFabCircuitboard

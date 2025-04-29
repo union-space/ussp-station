@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "license": "SUNRISE",
+  "copyright": "All rights reserved",
+    "states": [
+        {
+            "name": "rnd_sign1"
+        },
+		{
+            "name": "rnd_sign2"
+        },
+		{
+            "name": "rnd_sign3"
+        },
+		{
+            "name": "rnd_sign1shadow"
+        },
+		{
+            "name": "rnd_sign2shadow"
+        },
+        {
+            "name": "rnd_sign3shadow"
+        }
+    ]
+}
