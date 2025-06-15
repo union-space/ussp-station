@@ -19,7 +19,9 @@
     size: Large
   - type: Insulated
   - type: TemperatureProtection
-    minTemperature: -35
+    coefficient: 0.35
+    coldProtection: 400
+    heatProtection: 80
   - type: Armor
     modifiers:
       coefficients:
