@@ -257,3 +257,14 @@
       interactFailureString: petting-failure-generic
       interactSuccessSound:
         path: /Audio/Animals/snake_hiss.ogg
+
+
+- type: entity
+  parent: BaseWeaponTurret
+  id: WeaponTurretConsole
+  name: console turret
+  suffix: Console
+  components:
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
