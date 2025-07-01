@@ -5,14 +5,18 @@ namespace Content.Shared.Weapons.Ranged.Components;
 /// <summary>
 /// Added to a console that allows remotely controlling a turret.
 /// </summary>
+
 [RegisterComponent, NetworkedComponent]
 public sealed partial class TurretConsoleComponent : Component
 {
+    public const string TurretPort = "TurretControl";
+
     /// <summary>
     /// The turret entity that this console controls.
+    /// Set when linked via <see cref="TurretPort"/>.
     /// </summary>
-    [DataField("turret", required: true)]
-    public EntityUid Turret;
+    [ViewVariables]
+    public EntityUid? Turret;
 
     /// <summary>
     /// Current entity controlling the turret via this console.

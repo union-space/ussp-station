@@ -258,7 +258,6 @@
       interactSuccessSound:
         path: /Audio/Animals/snake_hiss.ogg
 
-
 - type: entity
   parent: BaseWeaponTurret
   id: WeaponTurretConsole
@@ -267,4 +266,12 @@
   components:
   - type: NpcFactionMember
     factions:
-    - NanoTrasen
+      - NanoTrasen
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: DeviceLinkSink
+    ports:
+      - TurretControl
