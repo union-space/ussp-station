@@ -442,3 +442,14 @@
       state: cpu_science
     - type: ComputerBoard
       prototype: StationAiUploadComputer
+
+- type: entity
+  parent: BaseComputerCircuitboard
+  id: ShipGunConsoleCircuitboard
+  name: ship gun console board
+  description: Controls a ship mounted gun.
+  components:
+    - type: Sprite
+      state: cpu_engineering
+    - type: ComputerBoard
+      prototype: ShipGunConsole
