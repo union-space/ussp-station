@@ -1,8 +1,0 @@
-- type: entity
-  parent: BaseComputer
-  id: ComputerTurretConsole
-  name: turret console
-  description: Used to remotely control a turret.
-  components:
-  - type: TurretConsole
-    turret: WeaponTurretConsole
