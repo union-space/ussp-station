@@ -1412,3 +1412,38 @@
     containers:
       circuit_holder: !type:ContainerSlot
       board: !type:Container
+
+- type: entity
+  parent: BaseComputerAiAccess
+  id: ShipGunConsole
+  name: ship gun console
+  description: Controls a ship mounted gun.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: generic
+    - map: ["computerLayerKeys"]
+      state: power_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#ffffff"
+  - type: Computer
+    board: ShipGunConsoleCircuitboard
+  - type: ShipGunConsole
+  - type: ActivatableUI
+    singleUser: true
+    key: enum.ShipGunConsoleUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.ShipGunConsoleUiKey.Key:
+        type: ShipGunConsoleBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface

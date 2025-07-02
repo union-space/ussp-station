@@ -370,3 +370,11 @@
     count: 5
   - type: Machine
     board: ShuttleGunKineticCircuitboard
+
+- type: entity
+  parent: ShuttleGunDuster
+  id: ShipGunConsoleGun
+  name: console controlled gun
+  suffix: DO NOT MAP
+  components:
+  - type: ShipGun
