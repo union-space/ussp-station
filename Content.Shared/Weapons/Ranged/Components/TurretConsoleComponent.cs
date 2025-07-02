@@ -21,6 +21,6 @@ public sealed partial class TurretConsoleComponent : Component
     /// <summary>
     /// Current entity controlling the turret via this console.
     /// </summary>
-    [DataField, ViewVariables]
+    [ViewVariables]
     public EntityUid? Controller;
 }
