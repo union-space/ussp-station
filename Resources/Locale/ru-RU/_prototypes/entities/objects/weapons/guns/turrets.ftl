@@ -17,3 +17,6 @@ ent-WeaponTurretHostile = { ent-BaseWeaponTurret }
 ent-WeaponTurretXeno = ксено турель
     .desc = Стреляет кислотными зарядами калибра 9 мм.
     .suffix = Ксено
+
+ent-WeaponTurretConsole = турель консоли
+    .desc = Турель, предназначенная для управления через консоль.

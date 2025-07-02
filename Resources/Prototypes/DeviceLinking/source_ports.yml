@@ -154,3 +154,8 @@
   id: PowerDischarging
   name: signal-port-name-power-discharging
   description: signal-port-description-power-discharging
+
+- type: sourcePort
+  id: TurretControl
+  name: signal-port-name-turret-control
+  description: signal-port-description-turret-control

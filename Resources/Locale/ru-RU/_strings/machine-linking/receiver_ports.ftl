@@ -50,6 +50,9 @@ signal-port-name-set-particle-zeta = Выбрать тип частиц: зет�
 signal-port-description-set-particle-zeta = Устанавливает тип частиц, излучаемых этим устройством, на зета.
 signal-port-name-set-particle-sigma = Выбрать тип частиц: сигма
 signal-port-description-set-particle-sigma = Устанавливает тип частиц, излучаемых этим устройством, на сигма.
+
+signal-port-name-turret-control = Связь с турелью
+signal-port-description-turret-control = Принимает соединение от консоли турели.
 signal-port-name-logic-input-a = Порт А
 signal-port-description-logic-input-a = Первый порт логического элемента.
 signal-port-name-logic-input-b = Порт В

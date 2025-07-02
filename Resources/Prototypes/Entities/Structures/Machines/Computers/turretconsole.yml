@@ -1,0 +1,17 @@
+---
+- type: entity
+  parent: BaseComputer
+  id: ComputerTurretConsole
+  name: turret console
+  description: Used to remotely control a turret.
+  components:
+    - type: TurretConsole
+    - type: DeviceList
+    - type: DeviceNetwork
+      deviceNetId: Wireless
+    - type: WirelessNetworkConnection
+      range: 200
+    - type: DeviceLinkSource
+      range: 5
+      ports:
+        - TurretControl

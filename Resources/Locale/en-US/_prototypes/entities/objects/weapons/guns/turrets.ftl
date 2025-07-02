@@ -20,3 +20,6 @@ ent-WeaponTurretAllHostile = { ent-BaseWeaponTurret }
 ent-WeaponTurretXeno = xeno turret
     .desc = Shoots 9mm acid projectiles.
     .suffix = Xeno
+
+ent-WeaponTurretConsole = console turret
+    .desc = A turret meant to be controlled from a linked console.

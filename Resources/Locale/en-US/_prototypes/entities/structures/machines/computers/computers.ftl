@@ -68,3 +68,6 @@ ent-ComputerRoboticsControl = robotics control console
     .desc = Used to remotely monitor, disable and destroy the station's cyborgs.
 ent-StationAiUploadComputer = AI upload console
     .desc = Used to update the laws of the station AI.
+
+ent-ComputerTurretConsole = turret control console
+    .desc = Used to remotely control a turret.
